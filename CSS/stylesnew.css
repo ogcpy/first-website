@@ -2,6 +2,8 @@ body {
     background-color: lightblue;
     color:white;
     font-size: 21px;
+    background-image: url(../flower-dark.png);
+    background-size: 20%;
 } 
 
 h1 {
@@ -18,19 +20,24 @@ p {
 /* the CSS box model */
 
 /* 
-    Margin:
-    Border:
-    Padding:
+    Margin: empty space around my element
+    Border: a border or stroke arounf my element
+    Padding: empty space with background around my elemnt
 
+    all of these add on top of the width and height!
 
 */
 
 .box {
-    background: pink;
+    background-image: url(https://www.cavaletticollection.co.uk/media/wysiwyg/Horse_Behaviour_-_blog.png);
     width: 300px;
 
-    margin: 100px;
+    margin: 100px 150px 50px;
     border: 10px solid green;
     border-left: 5px solid red;
+    padding: 50px 100px 300px 25px; /* top right bottom left clockwise ;) */
+
+    background-size: cover;
+    background-position: -350px;
 
 }
