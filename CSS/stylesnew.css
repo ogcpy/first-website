@@ -38,6 +38,6 @@ p {
     padding: 50px 100px 300px 25px; /* top right bottom left clockwise ;) */
 
     background-size: cover;
-    background-position: -350px;
+    background-position: left bottom;
 
 }
