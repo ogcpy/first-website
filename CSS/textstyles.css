@@ -5,6 +5,7 @@ body {
     background-size: 20%;
 
     font-family: Futura, sans-serif;
+    text-align: center;
 } 
 
 h1 {
@@ -95,3 +96,32 @@ a.active {
 }
 
 /* last ditch should be important tag */
+
+
+/* how to style lists */
+ol {
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-image: url(../icon.png);
+    background-color: pink;
+}
+
+ul li {
+    background-color: red;
+    margin: 15px;
+    list-style-position: inside;
+}
+
+ol {
+    background-color: lightblue;
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ol li {
+    background: blue;
+    margin-bottom: 10px;
+    color: white;
+}
