@@ -1,0 +1,43 @@
+body {
+    color:white;
+    font-size: 21px;
+    background-image: url(../flower-dark.png);
+    background-size: 20%;
+
+    font-family: Futura, sans-serif;
+} 
+
+h1 {
+    font-size: 70px;
+    color:lightblue ;
+    font-family: "courier bold", 'Courier New', Courier, monospace;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.25;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+
+}
+
+.bolder {
+    font-weight: bolder;
+    text-decoration: line-through underline overline;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* text styling */
