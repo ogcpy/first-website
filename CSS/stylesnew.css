@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+    color:white;
+    font-size: 21px;
+} 
+
+h1 {
+    font-size: 70px;
+    color:blue;
+}
+
+p {
+    color:gray;
+}
+
+/* this is a comment in CSS */
+
+/* the CSS box model */
+
+/* 
+    Margin:
+    Border:
+    Padding:
+
+
+*/
+
+.box {
+    background: pink;
+    width: 300px;
+
+    margin: 100px;
+    border: 10px solid green;
+    border-left: 5px solid red;
+
+}
