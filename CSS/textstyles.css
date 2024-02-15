@@ -18,6 +18,8 @@ h2 {
     margin-top: 0px
 }
 
+/* link and text styling */
+
 p {
     color:red;
 
@@ -37,12 +39,13 @@ a:visited {
 }
 
 a:hover {
-    color: yellow;
+    color: pink;
 }
 
 a.focus {
     color:red;
 }
+
 a.active {
     color:blue;
 }
@@ -68,5 +71,27 @@ a.active {
     font-weight: bold;
 }
 
+.body-text {
+    background-color: lightblue;
+    padding: 50px;
+    
+}
 
-/* link and text styling */
+.body-text p {
+    color:white;
+}
+
+.body-text a {
+    color: purple;
+}
+
+.body-text a:hover {
+    color: gray;
+}
+
+.important-link,
+.body-text .important-link {
+    color: yellow !important;
+}
+
+/* last ditch should be important tag */
