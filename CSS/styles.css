@@ -12,3 +12,12 @@ h1 {
     font-size: 70px;
     color:pink;
 }
+div {
+    background: pink;
+    width: 500px;
+    height: 500px;
+}
+span {
+    color: yellow;
+    font-size: 40px;
+}
